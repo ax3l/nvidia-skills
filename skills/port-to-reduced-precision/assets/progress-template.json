@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1.0",
+  "status": "in_progress",
+  "baseline_commit": "",
+  "last_working_commit": "",
+  "current_problem": "",
+  "current_round": 0,
+  "setup_complete": false,
+  "analysis_complete": false,
+  "plan_complete": false,
+  "genericize_complete": false,
+  "items": [],
+  "resolved_items": [],
+  "problems": [],
+  "rounds": [],
+  "notes": ""
+}

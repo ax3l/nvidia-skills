@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.1.0",
+  "source_dir": "",
+  "language": "cpp",
+  "transitions": ["fp64-to-fp32"],
+
+  "target_hardware": {
+    "description": "",
+    "fp64_policy": "native",
+    "fp32_fp64_ratio": null,
+    "ratio_source": ""
+  },
+
+  "strategy": "roles",
+  "roles": [],
+  "profiles": {
+    "hi": {},
+    "lo": {}
+  },
+  "precision_switch": {
+    "env": "PRECISION_PROFILE",
+    "existing_mechanism": ""
+  },
+
+  "qois": [],
+  "budgets": {
+    "hi_slowdown_pct": 5,
+    "hot_function_share_pct": 5,
+    "hi_slowdown_ceiling_pct": 10,
+    "hi_result_drift": "ask",
+    "hi_bit_identical": false
+  },
+
+  "performance_mode": "single",
+  "problems": [],
+
+  "engagement": "low",
+  "io_policy": "keep",
+  "fp_flags": {
+    "value_unsafe": false,
+    "flags": "",
+    "notes": ""
+  },
+
+  "build_correctness": ".precision-port/build_correctness.sh",
+  "run_correctness": ".precision-port/run_correctness.sh",
+  "verify_timeout": 600,
+
+  "tools": {
+    "nsys": false,
+    "ncu": false,
+    "cuobjdump": false,
+    "cccl_fp": "",
+    "verrou": false,
+    "herbie": false
+  }
+}

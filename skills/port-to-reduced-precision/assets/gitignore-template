@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: Apache-2.0
+
+# .precision-port: keep text distillations, drop bulky or binary artifacts
+profiles/**/*.nsys-rep
+profiles/**/*.sqlite
+profiles/**/*.qdstrm
+profiles/**/*.ncu-rep
+profiles/**/*.ncu-repz
+probes/**/precision_probe.*.jsonl
+history/**/*.nsys-rep
+history/**/*.sqlite
+recovery/
+
+# Keep: probe summaries (*.json, *.md), timing summaries, gold/ reference data

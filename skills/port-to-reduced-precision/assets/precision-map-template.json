@@ -1,0 +1,14 @@
+{
+  "problem": "",
+  "round": 0,
+  "transitions": [],
+  "sources": {
+    "inventory": ".precision-port/inventory.json",
+    "probe_summary": "",
+    "timing": "",
+    "sensitivity_method": ""
+  },
+  "baseline_gap": [],
+  "functions": [],
+  "not_analyzed": []
+}
