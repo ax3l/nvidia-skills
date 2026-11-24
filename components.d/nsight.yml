@@ -9,5 +9,7 @@ skills:
     catalog_dir: compute-sanitizer-diagnose-cuda-bugs
   - path: skills/nsight-port-cpu-to-gpu/
     catalog_dir: nsight-port-cpu-to-gpu
+  - path: skills/port-to-reduced-precision/
+    catalog_dir: port-to-reduced-precision
 links:
   discussions: false
